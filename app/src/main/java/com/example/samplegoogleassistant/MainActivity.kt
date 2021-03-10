@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
             SampleGoogleAssistantTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
-                    Greeting("Android")
+                    MainMessage()
                 }
             }
         }
@@ -25,14 +25,16 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
+fun MainMessage() {
+    Center {
+        Text(text = "Hello App Actions!")
+    }
 }
 
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
     SampleGoogleAssistantTheme {
-        Greeting("Android")
+        MainMessage()
     }
 }
