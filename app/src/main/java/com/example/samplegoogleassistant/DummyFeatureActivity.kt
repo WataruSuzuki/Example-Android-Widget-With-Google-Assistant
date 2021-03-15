@@ -26,7 +26,7 @@ class DummyFeatureActivity : ComponentActivity() {
             SampleGoogleAssistantTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
-                    NewsStory()
+                    DummyNewsStory()
                 }
             }
         }
@@ -34,7 +34,7 @@ class DummyFeatureActivity : ComponentActivity() {
 }
 
 @Composable
-fun NewsStory() {
+fun DummyNewsStory() {
     MaterialTheme {
         val typography = MaterialTheme.typography
         Column(
@@ -64,5 +64,5 @@ fun NewsStory() {
 @Preview
 @Composable
 fun PreviewDummyFeature() {
-    NewsStory()
+    DummyNewsStory()
 }
