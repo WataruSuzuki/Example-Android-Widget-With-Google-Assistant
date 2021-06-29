@@ -18,7 +18,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:theme="@style/Theme.AppWidget.AppWidgetContainer">
+    android:theme="@style/Theme.SampleGoogleAssistant.AppWidgetContainer">
 
     <TextView
         android:id="@+id/items_collection_title"
