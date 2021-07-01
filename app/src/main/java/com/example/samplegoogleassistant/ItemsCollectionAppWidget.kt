@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.appwidget
+package com.example.samplegoogleassistant
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -27,11 +27,10 @@ import android.widget.Toast
 import androidx.annotation.LayoutRes
 import androidx.annotation.RequiresApi
 import androidx.core.os.BuildCompat
-import com.example.android.appwidget.ItemsCollectionRemoteViewsFactory.Companion.EXTRA_VIEW_ID
-import com.example.android.appwidget.ItemsCollectionRemoteViewsFactory.Companion.REQUEST_CODE
-import com.example.android.appwidget.ItemsCollectionRemoteViewsFactory.Companion.REQUEST_CODE_FROM_COLLECTION_WIDGET
-import com.example.android.appwidget.ItemsCollectionRemoteViewsFactory.Companion.getRemoteCollectionItems
-import com.example.samplegoogleassistant.R
+import com.example.samplegoogleassistant.ItemsCollectionRemoteViewsFactory.Companion.EXTRA_VIEW_ID
+import com.example.samplegoogleassistant.ItemsCollectionRemoteViewsFactory.Companion.REQUEST_CODE
+import com.example.samplegoogleassistant.ItemsCollectionRemoteViewsFactory.Companion.REQUEST_CODE_FROM_COLLECTION_WIDGET
+import com.example.samplegoogleassistant.ItemsCollectionRemoteViewsFactory.Companion.getRemoteCollectionItems
 
 /**
  * Implementation of App Widget functionality that demonstrates the difference of how the list of
