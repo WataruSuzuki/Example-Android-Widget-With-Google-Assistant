@@ -41,4 +41,8 @@
     <string name="switch_element">Switch</string>
     <string name="items_widget_description">Widget for collection of items</string>
     <string name="items_collection">Items collection</string>
+
+    <string name="dummy_feature">Dummy feature</string>
+    <string name="label_active">Active Tasks</string>
+    <string name="label_completed">Completed Tasks</string>
 </resources>
